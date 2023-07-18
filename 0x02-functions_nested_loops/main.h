@@ -1,17 +1,17 @@
-#include "main.h"
-/**
- * main - prints the string "_putchar" from a character array.
- * Return: 0 on success.
- */
-int main(void)
-{
-        char c[] = "_putchar";
-        int i;
+#ifndef MAIN_H
+#define MAIN_H
 
-        for (i = 0; i < 9; i++)
-        {
-                _putchar(c[i]);
-        }
-        _putchar('\n');
-        return (0);
-}
+int _putchar(char C);
+void print_alphabet(void);
+int _islower(int C);
+int _isalpha(int C);
+int print_sign (int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
+void print_times_table(int n);
+
+#endif
