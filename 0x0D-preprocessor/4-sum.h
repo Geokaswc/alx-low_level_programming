@@ -3,7 +3,8 @@
 /**
  * File: 4-sum
  * @x: input
-  * Desc: header file
+ * @y: input
+ * Desc: header file
  */
 #define SUM(x, y) (x + y)
 
