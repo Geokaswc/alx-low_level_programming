@@ -7,7 +7,7 @@
 /**
  * struct listint_s - linked list
  * @n: int
- * @next: to points to next node
+ * @next: to poins to next node
  *
  * Description: singly linked list node structure
  * in alx task
@@ -19,6 +19,7 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
+size_t listint_len(const listint_t *h);
 
 #endif
 
